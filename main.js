@@ -1,9 +1,8 @@
 function sequence(startNumber = 0, step = 1) {
     let number = startNumber;
     return function generator() {
-        let value = number; 
-        number += step; 
-        return value;
+    return number += step; 
+    return;   
         
     }
     
